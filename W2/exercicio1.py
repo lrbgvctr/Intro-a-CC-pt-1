@@ -1,0 +1,5 @@
+ladostr = input('Digite o valor correspondente ao lado de um quadrado: ')
+lado = float(ladostr)
+p = int(lado * 4)
+a = int(lado ** 2)
+print('perímetro:',p,'área:',a)
